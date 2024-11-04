@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    .btn{
+      border-radius: 10px;
+   background-color: blueviolet;
+   padding: 10px;
+   &:hover{
+    color: white;
+    background-color: blue;
+   }
+    }
+}
